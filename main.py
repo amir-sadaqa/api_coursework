@@ -140,7 +140,7 @@ class ApiYd:
         # print(list_of_paths) # На случай необходимости посмотреть, как выглядит полученный словарь
 
         # Наконец загружаем фото на ЯД и создаем необходимый json-файл
-        count_of_uploaded_photo = int(input('Введите количество фотографий, которое нужно сохранить на ЯД: '))
+        count_of_uploaded_photo = 5
         n = 0  # Счетчик загруженных фото
         data_for_json = []  # Сюда будем записывать информацию по загруженным фото
         for path, photo_name in tqdm(list_of_paths.items()):
